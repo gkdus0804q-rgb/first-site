@@ -97,12 +97,12 @@ export function About() {
   // 기본 데이터
   const defaultInfo = {
     title: "소개",
-    subtitle: "당신의 전문성과 열정을 소개해주세요.",
-    background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"briefcase","title":"회사명","period":"2020 - 현재","description":"직무 및 역할"},{"icon":"graduation","title":"학교명","period":"2016 - 2020","description":"전공 및 학위"},{"icon":"award","title":"자격증/수상","period":"2021","description":"설명을 입력하세요"}],
-    skills: [{"icon":"code","title":"프론트엔드 개발","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"database","title":"백엔드 개발","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"palette","title":"UI/UX 디자인","description":"사용자 중심의 인터페이스 디자인"}],
+    subtitle: "저의 끊임없는 도전들을 소개합니다.",
+    background: {"image":"","video":"","color":"#fbf5d0","opacity":0.5},
+    experienceCards: [{"icon":"graduation","title":"단국대학교","period":"2023학년도","description":"도시계획부동산학부 입학"},{"icon":"award","title":"용인시 청년 정책 제안 공모전 입상","period":"2025.07.10","description":"용인특례시"},{"icon":"book","title":"용인청년 홍보기자단 활동","period":"2025.4~11","description":"용인시 청년정책과"},{"icon":"book","title":"농촌관광 기자단 활동","period":"2025.6~12","description":"한국농어촌공사"},{"icon":"trophy","title":"지역답사 학술대회 1등","period":"2023.12.22","description":"단국대학교 도시계획부동산학부"},{"icon":"trophy","title":"지역답사 학술대회 우수상","period":"2024.12.01","description":"단국대학교 도시계획부동산학부"},{"icon":"briefcase","title":"도시계획부동산학부 학생회 활동","period":"2023-2024","description":"단국대학교"}],
+    skills: [{"icon":"barChart","title":"ArcGIS ","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"pieChart","title":"Studio R","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"video","title":"Premiere Pro","description":"사용자 중심의 인터페이스 디자인"},{"icon":"star","title":"새 스킬","description":"스킬 설명"}],
     storyTitle: "나의 이야기",
-    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
+    story: ["저는 저만의 밝은 에너지를 통해 사람들과 소통하고, 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트와 저만의 특별한 경험을 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 인재가 되기 위해 노력하겠습니다."],
     storyImage: "",
     hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행"]
   }

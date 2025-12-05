@@ -98,13 +98,13 @@ export function About() {
   const defaultInfo = {
     title: "소개",
     subtitle: "저의 끊임없는 도전들을 소개합니다.",
-    background: {"image":"","video":"","color":"#fbf5d0","opacity":0.5},
-    experienceCards: [{"icon":"graduation","title":"단국대학교","period":"2023학년도","description":"도시계획부동산학부 입학"},{"icon":"award","title":"용인시 청년 정책 제안 공모전 입상","period":"2025.07.10","description":"용인특례시"},{"icon":"book","title":"용인청년 홍보기자단 활동","period":"2025.4~11","description":"용인시 청년정책과"},{"icon":"book","title":"농촌관광 기자단 활동","period":"2025.6~12","description":"한국농어촌공사"},{"icon":"trophy","title":"지역답사 학술대회 1등","period":"2023.12.22","description":"단국대학교 도시계획부동산학부"},{"icon":"trophy","title":"지역답사 학술대회 우수상","period":"2024.12.01","description":"단국대학교 도시계획부동산학부"},{"icon":"briefcase","title":"도시계획부동산학부 학생회 활동","period":"2023-2024","description":"단국대학교"}],
-    skills: [{"icon":"barChart","title":"ArcGIS ","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"pieChart","title":"Studio R","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"video","title":"Premiere Pro","description":"사용자 중심의 인터페이스 디자인"},{"icon":"star","title":"새 스킬","description":"스킬 설명"}],
+    background: {"image":"","video":"","color":"#bad9eb","opacity":0.7},
+    experienceCards: [{"icon":"graduation","title":"단국대학교","period":"2023학년도","description":"도시계획부동산학부 입학"},{"icon":"award","title":"용인시 청년 정책 제안 공모전 입상","period":"2025.07.10","description":"용인특례시"},{"icon":"book","title":"용인청년 홍보기자단 활동","period":"2025.4~11","description":"용인시 청년정책과"},{"icon":"book","title":"농촌관광 기자단 활동","period":"2025.6~12","description":"한국농어촌공사"},{"icon":"trophy","title":"지역답사 학술대회 1등","period":"2023.12.22","description":"단국대학교 도시계획부동산학부"},{"icon":"trophy","title":"지역답사 학술대회 우수상","period":"2024.12.01","description":"단국대학교 도시계획부동산학부"},{"icon":"briefcase","title":"도시계획부동산학부 학생회 활동","period":"2023-2024","description":"단국대학교"},{"icon":"heart","title":"교내 응원단 단장 (조직 관리 및 행사 기획)","period":"2023-2024","description":"단국대학교"},{"icon":"heart","title":"교내 밴드 동아리 활동 (공연 협업)","period":"2025~","description":"단국대학교"}],
+    skills: [{"icon":"barChart","title":"ArcGIS ","description":"도시 공간 데이터 시각화 및 입지 분석"},{"icon":"pieChart","title":"R Studio","description":"시장 데이터 마이닝 및 통계적 모델링"},{"icon":"video","title":"Premiere Pro","description":"지역 브랜딩 콘텐츠 기획·제작"},{"icon":"monitor","title":"MS Office","description":"데이터 기반 의사결정 지원 및 전략 제안서 작성"},{"icon":"gitBranch","title":"Web Basic (GitHub / HTML)","description":"웹 기반 포트폴리오 구축 및 협업 툴 활용"}],
     storyTitle: "나의 이야기",
-    story: ["저는 저만의 밝은 에너지를 통해 사람들과 소통하고, 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트와 저만의 특별한 경험을 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 인재가 되기 위해 노력하겠습니다."],
+    story: ["남들이 다하는 스펙 대신, 제 마음을 움직이는 호기심을 따라 강의실 밖의 세상으로 뛰어들었습니다.","현장에서 직접 부딪히며 얻은 생생한 경험들은 문제의 본질을 꿰뚫는 통찰력과 창의적인 유연함을 길러주었습니다. 무엇보다 다양한 배경의 동료들과 하나의 목표를 향해 발맞추는 과정에서 혼자서는 결코 이룰 수 없는 '연대와 협업의 가치'를 깊이 깨달았습니다.","이러한 경험은 제가 조직에 빠르게 융화되어, 맡은 책임을 성실히 완수하는 단단한 기반이 될 것입니다. 리더의 자리에 서 보았기에, 누구보다 리더의 의도를 정확히 파악하고 따르는 현명한 팔로워가 될 준비가 되어 있습니다.","입사 초기에는 조직의 방향성에 맞춰 주어진 업무를 완벽히 수행하고, 훗날에는 그 과정에서 얻은 배움을 토대로 타인을 이끌 수 있는 든든한 리더로 성장하겠습니다."],
     storyImage: "",
-    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행"]
+    hobbies: ["📣  응원단 활동","🎵 밴드 활동","🥁 드럼 치기","✈️ 여행","🏃 러닝"]
   }
   
   const [aboutInfo, setAboutInfo] = useState(defaultInfo)

@@ -40,12 +40,12 @@ export function Hero() {
     name: "최하연",
     title: "단국대학교 도시계획부동산학부 3학년",
     description: "끊임없는 도전으로 '더 나은 삶의 터전'을 계획합니다.",
-    profileImage: "",
+    profileImage: "/uploads/hero-profile-1765014929243.jpg",
     backgroundImage: "",
     backgroundVideo: "",
     backgroundOpacity: 0.1,
     projectButton: "프로젝트 보기",
-    background: {"image":"","video":"","color":"#cfb59e","opacity":0.4}
+    background: {"image":"","video":"","color":"#cfb59e","opacity":1}
   }
 
   const [backgroundData, setBackgroundData] = useState<{ image: string; video: string; color: string; opacity: number } | null>(null)

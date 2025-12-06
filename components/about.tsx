@@ -103,7 +103,7 @@ export function About() {
     skills: [{"icon":"barChart","title":"ArcGIS ","description":"도시 공간 데이터 시각화 및 입지 분석"},{"icon":"pieChart","title":"R Studio","description":"시장 데이터 마이닝 및 통계적 모델링"},{"icon":"video","title":"Premiere Pro","description":"지역 브랜딩 콘텐츠 기획·제작"},{"icon":"monitor","title":"MS Office","description":"데이터 기반 의사결정 지원 및 전략 제안서 작성"},{"icon":"gitBranch","title":"Web Basic (GitHub / HTML)","description":"웹 기반 포트폴리오 구축 및 협업 툴 활용"}],
     storyTitle: "나의 이야기",
     story: ["남들이 다하는 스펙 대신, 제 마음을 움직이는 호기심을 따라 강의실 밖의 세상으로 뛰어들었습니다.","현장에서 직접 부딪히며 얻은 생생한 경험들은 문제의 본질을 꿰뚫는 통찰력과 창의적인 유연함을 길러주었습니다. 무엇보다 다양한 배경의 동료들과 하나의 목표를 향해 발맞추는 과정에서 혼자서는 결코 이룰 수 없는 '연대와 협업의 가치'를 깊이 깨달았습니다.","이러한 경험은 제가 조직에 빠르게 융화되어, 맡은 책임을 성실히 완수하는 단단한 기반이 될 것입니다. 리더의 자리에 서 보았기에, 누구보다 리더의 의도를 정확히 파악하고 따르는 현명한 팔로워가 될 준비가 되어 있습니다.","입사 초기에는 조직의 방향성에 맞춰 주어진 업무를 완벽히 수행하고, 훗날에는 그 과정에서 얻은 배움을 토대로 타인을 이끌 수 있는 든든한 리더로 성장하겠습니다."],
-    storyImage: "",
+    storyImage: "/uploads/about-image-1765015906123.jpg",
     hobbies: ["📣  응원단 활동","🎵 밴드 활동","🥁 드럼 치기","✈️ 여행","🏃 러닝"]
   }
   
